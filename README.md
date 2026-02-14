@@ -20,3 +20,52 @@
 1. Navigate to the backend directory:
    ```bash
    cd backend
+## Setup Instructions
+
+### Backend (Django)
+
+1. **Create and activate virtual environment:**
+
+```bash
+python -m venv .venv
+# Linux/Mac
+source .venv/bin/activate
+# Windows
+.venv\Scripts\activate
+```
+
+2. **Install dependencies:**
+   
+```bash
+pip install -r requirements.txt
+```
+
+3. **Make migrations and migrate:**
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+4. **Run the server**
+```bash
+python manage.py runserver
+```
+
+### Frontend (React)
+
+1. **Navigate to frontend folder:**
+
+```bash
+cd frontend
+```
+
+2. **Install dependencies:**
+   
+```bash
+npm install
+```
+
+3. **Run the React app:**
+```bash
+npm run dev 
+```
