@@ -14,12 +14,6 @@
 - **Backend:** Django, Django REST Framework (DRF)
 - **Database:** SQLite3
 
-## 📦 Installation & Setup
-
-### Backend Setup
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
 ## Setup Instructions
 
 ### Backend (Django)
