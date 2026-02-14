@@ -1,0 +1,22 @@
+# Quiz Mania 🎮
+
+**Quiz Mania** is a full-stack web application built to challenge users' knowledge through an interactive and customizable quiz experience. It features a robust Django backend and a modern React frontend.
+
+## 🚀 Features
+- **Dual User Roles:** Separate interfaces and permissions for Admins and Players.
+- **Admin Dashboard:** Full Content Management System (CMS) to add, preview, and manage quiz questions in real-time.
+- **Dynamic Quiz Engine:** Choose your challenge level by selecting the number of questions per session.
+- **Real-time Scoring:** Instant feedback with score and accuracy percentage upon completion.
+- **RESTful API:** Seamless data communication between the React frontend and Django backend.
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS, Axios
+- **Backend:** Django, Django REST Framework (DRF)
+- **Database:** SQLite3
+
+## 📦 Installation & Setup
+
+### Backend Setup
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
